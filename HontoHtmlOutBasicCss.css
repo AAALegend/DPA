@@ -1,0 +1,152 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  clear: both;
+  line-height: 150%;
+  width: 1000px;
+  margin: auto;
+}
+
+.dontShowContainerBorder{
+  border: none;
+}
+
+.chapter_selecter_dropdown_form{
+  clear: both;
+  display:block;
+}
+#chapter_selecter_dropdown1{
+ width:80%;   
+ font-size:0.85em;
+}
+#chapter_selecter_dropdown2{
+ width:80%;   
+ font-size:0.85em;
+}
+
+.IMAGE{
+    order: 1;    color:black;
+}
+
+.KR{
+    order: 2;    color:#302c34;
+    display: none;
+}
+
+.EN{
+    order: 3;    color:wheat;
+}
+
+.overrideorder_1{
+    order: 1 !important;
+}
+
+.overrideorder_2{
+    order: 2 !important;
+}
+
+.overrideorder_3{
+    order: 3 !important;
+}
+
+.mcolumn{display: none;}
+
+
+
+body{
+  margin-left: 5%;  padding: 0.5em;
+  background-color: #1a181c;
+  font-size:21px;
+  color: white;
+  font-family: Georgia, Helvetica, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+ol.calibreToc{
+  clear: both;
+  display:block;
+  padding-bottom: 0px;
+
+}
+
+ol.calibreToc > li{
+    font-size:0.85em;
+    line-height: 1.2;
+}
+
+.mrow{
+  display: flex;
+  clear: both;
+  float:left;
+}
+p{
+  width:70%;
+  float:left;
+  clear: both;
+  
+}
+
+button.calibrebutton{
+clear: both;
+float:left;
+}
+
+img {
+  max-width:100%
+}
+
+@media only screen and (orientation : portrait) {
+	/* Styles for mobile devices on portrait mode */
+  body {
+    margin-left: 2%;
+    font-size:28px;
+  }
+ p{
+  width:97%;
+ }
+}
+
+
+.calibreMeta a, .calibreEbNav a, .calibreEbNavTop a, .calibreToc a{
+  color:white;
+}
+
+.calibreMeta h1{
+  margin:0px;
+  font-size:18px;
+  background-color:#39322B;
+}
+
+.calibreEbookContent{
+  padding:20px;
+}
+
+.calibreEbNav, .calibreEbNavTop{
+  clear:both;
+  background-color:#39322B;
+  color:white;
+  padding:10px;
+  text-align:center;
+}
+
+.dontDisplay {
+        display: none;
+}
+
+.hidden {
+        visibility: hidden;
+}
+
+.calibreToc{
+  float:left;
+  margin:20px;
+  width:60%;
+  color:black;
+  background-color:black;
+  padding:10px;
+}
+.calibreEbookContent{
+  width:70%;
+  float:left;
+  clear: both;
+}
