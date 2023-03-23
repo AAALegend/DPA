@@ -31,11 +31,11 @@
 
 .KR{
     order: 2;    color:#302c34;
-    display: none;
+    
 }
 
 .EN{
-    order: 3;    color:wheat;
+    order: 3;  display: none;  color:wheat;
 }
 
 .overrideorder_1{
